@@ -1,0 +1,15 @@
+{
+	"permissions": {
+		"allow": [
+			"WebFetch(domain:localhost)",
+			"Bash(curl -s http://localhost:3000)",
+			"Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\": []}')",
+			"Bash(curl -s http://localhost:3000/api)",
+			"mcp__playwright__browser_wait_for"
+		]
+	},
+	"permisions": {
+		"allow": ["mcp__playwriting"],
+		"deny": []
+	}
+}
